@@ -1,0 +1,6 @@
+10:34:04.799 [main] DEBUG com.inetBanking.TestCases.BaseClass - navigated to url
+10:34:04.811 [main] INFO  com.inetBanking.TestCases.BaseClass - we r in the guru99 page
+10:34:04.815 [main] INFO  com.inetBanking.TestCases.BaseClass - title printing
+10:34:04.831 [main] ERROR com.inetBanking.TestCases.BaseClass - testing purpose
+14:04:12.515 [main] DEBUG com.inetBanking.TestCases.BaseClass - navigated to url
+14:04:12.517 [main] INFO  com.inetBanking.TestCases.BaseClass - we r in the guru99 page
