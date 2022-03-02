@@ -28,9 +28,11 @@ public class TC_LoginDDT_002 extends BaseClass
 		if(isAlertPresent()==true)
 		{
 			driver.switchTo().alert().accept();//close alert
+			
 			driver.switchTo().defaultContent();
+			Thread.sleep(3000);
 			Assert.assertTrue(false);
-			log.warn("Login failed");
+			log.info("Login failed");
 		}
 		else
 		{
@@ -39,7 +41,9 @@ public class TC_LoginDDT_002 extends BaseClass
 			lp.clickLogout();
 			Thread.sleep(3000);
 			driver.switchTo().alert().accept();//close logout alert
+			
 			driver.switchTo().defaultContent();
+			Thread.sleep(3000);
 			
 		}
 		
@@ -62,10 +66,11 @@ public class TC_LoginDDT_002 extends BaseClass
 	}
 	
 	
-	@DataProvider(name="LoginData")
+   @DataProvider(name="LoginData")
+	
 	String [][] getData() throws IOException
 	{
-		String path=System.getProperty("user.dir")+"/src/test/java/com/inetbanking/testData/LoginData.xlsx";
+		String path=System.getProperty("user.dir")+"/src/test/java/com/inetBanking/testData/LoginData.xlsx";
 		
 		int rownum=XLUtils.getRowCount(path, "Sheet1");
 		int colcount=XLUtils.getCellCount(path,"Sheet1",1);
@@ -77,6 +82,7 @@ public class TC_LoginDDT_002 extends BaseClass
 			for(int j=0;j<colcount;j++)
 			{
 				logindata[i-1][j]=XLUtils.getCellData(path,"Sheet1", i,j);//1 0
+				//System.out.println(logindata[i-1][j]);
 			}
 				
 		}

@@ -1,6 +1,3 @@
-14:04:12.521 [main] INFO  com.inetBanking.TestCases.BaseClass - title printing
-14:04:12.544 [main] ERROR com.inetBanking.TestCases.BaseClass - testing purpose
-15:21:11.182 [main] DEBUG com.inetBanking.TestCases.BaseClass - navigated to url
-15:21:11.184 [main] INFO  com.inetBanking.TestCases.BaseClass - we r in the guru99 page
-15:21:11.190 [main] INFO  com.inetBanking.TestCases.BaseClass - title printing
-15:21:11.213 [main] ERROR com.inetBanking.TestCases.BaseClass - testing purpose
+09:47:07.447 [main] INFO  com.inetBanking.TestCases.BaseClass - password provided
+09:47:14.691 [main] INFO  com.inetBanking.TestCases.BaseClass - user name provided
+09:47:14.804 [main] INFO  com.inetBanking.TestCases.BaseClass - password provided

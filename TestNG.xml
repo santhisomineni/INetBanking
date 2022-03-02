@@ -5,6 +5,7 @@
    <parameter name="browser" value="chrome"/>
       <classes>
             <class name="com.inetBanking.TestCases.TC_LoginTest_001" />
+            <class name="com.inetBanking.TestCases.TC_LoginDDT_002" />
       </classes> 
  </test>
 </suite>
